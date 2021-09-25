@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for post in object_list %}
+    <div>
+    <p>
+    <a href="{{ post.get_absolute_url }}"> {{ post.title }}</a>
+        <a href="{% url 'blog:edit_post' post.pk %}"> Edit post </a>
+        <a href="{% url 'blog:delete_post' post.pk %}">Delete</a></br>
+        </br>
+    {{ post.text }} </br>
+    </p>
+    </div>
+{% endfor %}
+    <a href="{% url 'blog:create_post' %}"> Create new post </a>
+{% block new_post %}
+{% endblock %}
+</body>
+</html>

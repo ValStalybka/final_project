@@ -1,0 +1,7 @@
+{% extends 'blog/all_posts.html' %}
+{% block new_post %}
+<form method="post">{% csrf_token %}
+    Are you sure you wanna delete this post?</br>
+    <input type="submit" value="Delete"/>
+</form>
+{% endblock %}
