@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <form enctype="multipart/form-data">
+        {% csrf_token %}
+     <input type="hidden" name="post_id" value="{{ object.post.id }}">
+
+  <div class="form-group col-md-6">
+      {% for f in form %}
+          <p>{{ f }}</p>
+      {% endfor %}
+
+     <p class="lead mb-0"><button class="btn btn-outline-secondary" type="submit">Edit</button></p>
+      </div>
+    </form>
+</div>
+{% endblock %}

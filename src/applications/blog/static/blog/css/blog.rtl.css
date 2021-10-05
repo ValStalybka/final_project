@@ -1,0 +1,237 @@
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: Amiri, Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Amiri, Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 3px 0 0 3px;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+.comments-details button.btn.dropdown-toggle,
+.comments-details .total-comments {
+    font-size: 18px;
+    font-weight: 500;
+    color: #5e5e5e;
+}
+.comments-details {
+    padding: 15px 15px;
+}
+.comments .comments .dropdown,
+.comments .dropup {
+    position: relative;
+}
+.comments button {
+    background-color: transparent;
+    border: none;
+}
+.comments .comment-box {
+    width: 100%;
+    float: left;
+    height: 100%;
+    background-color: #FAFAFA;
+    padding: 10px 10px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.comments .add-comment {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    margin-bottom: 50px;
+}
+.comments .commenter-pic {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    overflow: hidden;
+    background-color: #fff;
+}
+.comments .add-comment .commenter-name {
+    width: 100%;
+    padding-left: 75px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+.comments .add-comment input {
+    border-top: 0px;
+    border-bottom: 1px solid #ccc;
+    border-left: 0px;
+    border-right: 0px;
+    outline: 0px;
+    box-shadow: none;
+    border-radius: 0;
+    width: 100%;
+    padding: 0;
+    font-weight: normal;
+}
+.comments .add-comment input:focus {
+    border-color: #03a9f4;
+    border-width: 2px;
+}
+.comments .add-comment button[type=submit] {
+    background-color: #03a9f4;
+    color: #fff;
+    margin-right: 0px;
+}
+.comments .add-comment button {
+    background-color: #f5f5f5;
+    margin: 10px 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    float: right;
+}
+.comments .commenter-name .comment-time {
+    font-weight: normal;
+    margin-left: 8px;
+    font-size: 15px;
+}
+.comments p.comment-txt {
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 0px 15px;
+}
+.comments .commenter-name {
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.comments .comment-meta {
+    font-size: 14px;
+    color: #333;
+    padding: 2px 5px 0px;
+    line-height: 20px;
+    float: right;
+}
+.comments .reply-box {
+    display: none;
+}
+.comments .replied {
+    background-color: #fff;
+    width: 95%;
+    float: right;
+    margin-top: 15px;
+}
+
+/*======Responsive CSS=======*/
+@media (max-width: 767px){
+.comments .commenter-name {
+    font-size: 13px;
+    top: -5px;
+}
+.comments .commenter-pic {
+    width: 40px;
+    height: 40px;
+}
+.comments .commenter-name a{
+  display: block;
+}
+.comments .commenter-name .comment-time{
+  display: block;
+  margin-left: 0px;
+}
+}
+
+
+
+
+

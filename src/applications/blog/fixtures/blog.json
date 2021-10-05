@@ -1,0 +1,1372 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-10-05T09:25:23.209Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "valeria",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-10-05T09:25:37.473Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "Andrea",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-10-05T09:26:00.137Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "Cool_user",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-10-05T09:26:13.268Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "5",
+        "object_repr": "cool_user1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-10-05T09:26:21.167Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "6",
+        "object_repr": "firefly",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-10-05T09:26:55.046Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "first",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-10-05T09:27:11.022Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Dad jokes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-10-05T09:27:59.987Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Bad joke",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-10-05T09:28:29.826Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "Deep Rock Galactic board game coming to Kickstarter next year",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-10-05T09:29:16.628Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "5",
+        "object_repr": "Hackers drain cryptocurrency",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-10-05T09:30:02.800Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "ISP sues Netflix because  Squid Game is just too  popular",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-10-05T09:30:42.644Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "NEXT BIG TRIP Why superbusiness minisuites are the future of luxury flying",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-10-05T09:32:05.257Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "8",
+        "object_repr": "Did you know 11% of people are left handed",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-10-05T09:32:59.522Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "9",
+        "object_repr": "Grapes light on fire in the microwave.",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-10-05T09:33:22.147Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "10",
+        "object_repr": "Did you know????",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-10-05T09:34:07.061Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "11",
+        "object_repr": "Absolutely pointless info",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-10-05T09:34:20.243Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "me too!",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-10-05T09:34:42.918Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "oh no...",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-10-05T09:35:16.718Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "It's not that bad, it's just need a little shaping",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-10-05T09:35:50.627Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "I honestly did not understand a word",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-10-05T09:36:10.793Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Finally, true content",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-10-05T09:36:43.601Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Well, i have my plans for the evening",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-10-05T09:37:06.305Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "I'm too old to read this",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-10-05T09:37:39.108Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "How fun it would be to forget this post!",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-10-05T09:37:46.984Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "first",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2021-10-05T09:37:52.347Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Dad jokes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2021-10-05T09:38:01.448Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "first",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2021-10-05T09:38:09.509Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "first",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2021-10-05T09:38:16.913Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "NEXT BIG TRIP Why superbusiness minisuites are the future of luxury flying",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2021-10-05T09:38:24.135Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Dad jokes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2021-10-05T09:38:34.394Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Bad joke",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2021-10-05T09:38:41.492Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "NEXT BIG TRIP Why superbusiness minisuites are the future of luxury flying",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2021-10-05T09:38:48.688Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "ISP sues Netflix because  Squid Game is just too  popular",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2021-10-05T09:38:58.253Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "NEXT BIG TRIP Why superbusiness minisuites are the future of luxury flying",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2021-10-05T09:39:06.687Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Absolutely pointless info",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2021-10-05T09:39:18.405Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Hackers drain cryptocurrency",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2021-10-05T09:39:25.637Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Absolutely pointless info",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2021-10-05T09:39:42.471Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Absolutely pointless info",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2021-10-05T09:39:48.897Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "first",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2021-10-05T09:39:59.456Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Deep Rock Galactic board game coming to Kickstarter next year",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2021-10-05T09:40:12.609Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Dad jokes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2021-10-05T09:41:22.191Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Why superbusiness minisuites are the future of luxury flying",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2021-10-05T09:42:20.582Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "6",
+        "object_repr": "ISP sues Netflix because Squid Game is  too  popular",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2021-10-05T09:42:29.555Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "7",
+        "object_repr": "Why minisuites are the future of luxury flying",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add like",
+        "content_type": 7,
+        "codename": "add_like"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change like",
+        "content_type": 7,
+        "codename": "change_like"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete like",
+        "content_type": 7,
+        "codename": "delete_like"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view like",
+        "content_type": 7,
+        "codename": "view_like"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add Post",
+        "content_type": 8,
+        "codename": "add_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change Post",
+        "content_type": 8,
+        "codename": "change_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete Post",
+        "content_type": 8,
+        "codename": "delete_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view Post",
+        "content_type": 8,
+        "codename": "view_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add Comment",
+        "content_type": 9,
+        "codename": "add_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change Comment",
+        "content_type": 9,
+        "codename": "change_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete Comment",
+        "content_type": 9,
+        "codename": "delete_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view Comment",
+        "content_type": 9,
+        "codename": "view_comment"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$UnKvRJBsJxkRQuUjqoxFQQ$lHqLqbPAR+f5QcuzDqVkATrSOkOx5HSAyP0hRGaWG94=",
+        "last_login": "2021-10-05T09:12:46.804Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-10-05T09:12:25.351Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$NM1N0LLvKqKyI5W8kO2POf$ajxx53E9X4ewuIR1xvCrQncaeC1gj3lLufAyerqPzzU=",
+        "last_login": "2021-10-05T12:19:07.501Z",
+        "is_superuser": false,
+        "username": "valeria",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-10-05T09:25:22.871Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$1bjO9ZrlocJCLsLkrCWOke$ie7H5BXBIWyDSdmq4ZrrlqDWfXxe6pZMMHwUxbR3l1E=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "Andrea",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-10-05T09:25:37.125Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$LUBVRIkLmueUTnVgNe5RlX$5TeYDDbLw3SXHU8YdVBcVlkrV3XGb7aXPU6CNO3hQVs=",
+        "last_login": "2021-10-05T12:46:25.671Z",
+        "is_superuser": false,
+        "username": "Cool_user",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-10-05T09:25:59.796Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$JPezMi6xNGx6O6gFn9Shmp$RGXbr6jl85ex222ufxER69UV3xT1WYmaldyJkY12Jt8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "cool_user1",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-10-05T09:26:12.916Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$UxvHR1oT8VCryXnOcC7wxF$QiB/AZyQJk2odpKf1r26IvULrnIAvTAbD0f0kspK95U=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "firefly",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2021-10-05T09:26:20.832Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "blog",
+        "model": "like"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "blog",
+        "model": "post"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "blog",
+        "model": "comment"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "bdtrz2dlj8v0ma3ma28emcosacr41qwt",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hBgBigu3XsGAsxUqoYmpV0Z765NutDtf-_9l4hpW2vcOi9xInEWRpx-t5zKg9sO6J7abZZlbusyZbkr8qBdXmfi5-Vw_w5q6vVbe1BoKRQsoJ0lyFo7FRAdGBxoAFZsx-KNRk8UnDFUdMhaMSeVR0Dx_gCwrjcF:1mXjPX:kwUnW39oLsYkkFAj9y3Ch-xXdW4qE27DyxskXy2BfXU",
+        "expire_date": "2021-10-19T12:19:07.524Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rmr0ycwkbz150jc3ex10y79bu7zkgpg8",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlm2119Kes5g7fqDA8iR4qRC3B0ipYD2zcx7sYjb2uI2yhKnzM5Ms9PvRpgepe8g37HfZp7mvi4T8V3hBx38OufyvBzu30HD0b51CsaUqoUIVipyALYEkAGNlsYRYvLJEaCQPkDJClKVtirQhN5qA4K9P8a_Nww:1mXjpx:Dr_qwmu5BuzdFtP5M-wua2N46c1Eqx9L0brke-HB6NU",
+        "expire_date": "2021-10-19T12:46:25.694Z"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+        "text": "Hello there and welcome!",
+        "date": "2021-10-05",
+        "title": "first",
+        "author": 1
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "text": "\"Dad, can you put my shoes on?\" \"No, I don't think they'll fit me.\"\r\n\"Why can't a nose be 12 inches long? Because then it would be a foot.\"\r\n\"What does a lemon say when it answers the phone?\" \"Yellow!\"\r\n\"This graveyard looks overcrowded. People must be dying to get in.\"\r\n\"What kind of car does an egg drive?\" \"A yolkswagen.\"",
+        "date": "2021-10-05",
+        "title": "Dad jokes",
+        "author": 3
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+        "text": "If you wanna hear a bad joke - today is your lucky day!\r\n\"What time did the man go to the dentist? Tooth hurt-y.\"",
+        "date": "2021-10-05",
+        "title": "Bad joke",
+        "author": 3
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+        "text": "If a board game version of Deep Rock Galactic's dwarf mining and spider-killing sounds fun, good news: Developer Ghost Ship is launching a Kickstarter campaign sometime in 2022 to make it a reality. They've even published a blog showing off what early versions of the board game look like and how it translates the co-op experience to the tabletop.\r\n\r\nDeep Rock Galactic: The Board Game is being designed by Ole Steiness, creator of Champions of Midgard, which sits at 92 in BoardGameGeek's top 100 strategy games list. Though the DRG board game went through plenty of prototyping, Ghost Ship knew it wanted to make it a 1-4 player co-op dungeon crawler, just like the videogame.\r\n\r\nThe final version of the game will have a team of players moving through a hex grid made of solid rock, and choosing where you dig will impact future combat encounters. Rather than a long multi-stage campaign, the board game version will have players work through a one to two-hour missions that can be affected by random event cards, different mission types, the flexible layout, and in-mission progression. It seems that the final version of the board game will focus a little more on combat w",
+        "date": "2021-10-05",
+        "title": "Deep Rock Galactic board game coming to Kickstarter next year",
+        "author": 4
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 5,
+    "fields": {
+        "text": "Coinbase, a platform used for buying, selling and storing cryptocurrency, notified over 6,000 customers that they were victims of a targeted campaign to gain access to their accounts that involved a combination of phishing attacks and a flaw in Coinbase's two-factor authorization system. \r\nBetween March and May of 2021, hackers managed to get into the accounts and move funds off the platform, draining some accounts dry. Thousands of customers had already begun to complain to Coinbase that funds had vanished from their accounts.",
+        "date": "2021-10-05",
+        "title": "Hackers drain cryptocurrency",
+        "author": 4
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 6,
+    "fields": {
+        "text": "A South Korean internet service provider has filed a lawsuit against Netflix, asking that the company be ordered to pay for costs caused by a surge of traffic driven by the popularity of the series Squid Game.\r\n\r\nThe dispute began in 2019, when SK Broadband filed a complaint over Netflix's refusal to pay usage fees with the Korea Communications Commission. The companies failed to reach a settlement, according to a Korea Economic Daily report, leading Netflix to sue SK Broadband in April 2020, seeking a declaration that it was not obligated to pay any extra fees. \r\n\r\nIn 2021, June the Seoul Central District Court ruled against Netflix, declaring that it is receiving \"a service provided at a cost\" and that it is \"reasonable\" that it should pay something for that service. A specific resolution, however, \"needs to be determined by negotiations between the parties involved whether or not some fees will be paid, or whether they enter an agreement in accordance with the principle of freedom of contract.\"",
+        "date": "2021-10-05",
+        "title": "ISP sues Netflix because Squid Game is  too  popular",
+        "author": 4
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 7,
+    "fields": {
+        "text": "After a long, golden sunset of being installed on fewer and fewer aircraft, the retirement of older aircraft caused by the Covid-19 pandemic means that when air travel resumes, international first class will be very nearly a thing of the past.\r\nIts replacement is a new generation of superbusiness minisuites, more spacious than regular business class, and with a privacy door to create your own space, but without the over-the-top luxury of first class.\r\nFewer $600 bottles of Champagne, but tickets at business class prices.\r\nSo what is superbusiness? At its core it's a top-notch business class seat that goes fully flat like a bed, without any neighbors to climb over, with an improved business class service and, most crucially, with closing privacy doors that give you a minisuite experience.\r\n\"The rapid design evolution of the minisuite shows just how serious airlines are about delivering a better sleep with enhanced privacy, better work spaces and more stowage,\" explains Daniel Baron, managing director of Lift Aero Design, a Tokyo-based studio that works with airlines and seatmakers to create cabins.\r\nBaron highlights that these superbusiness minisuites \"matter to an airline because a tangible raising of the bar is typically associated with increased revenue, loyalty or both. Even if competitors react by taking the plunge for a similar product, the market disrupter might have around two years of competitive advantage due to lead time for development and installation.\"",
+        "date": "2021-10-05",
+        "title": "Why minisuites are the future of luxury flying",
+        "author": 5
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 8,
+    "fields": {
+        "text": "Please don't fact-check it",
+        "date": "2021-10-05",
+        "title": "Did you know 11% of people are left handed",
+        "author": 3
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 9,
+    "fields": {
+        "text": "Back in 2011, a physicist at the University of Sydney went viral after he placed a grape in the microwave and filmed the fiery aftermath. And oddly enough, scientists couldn't explain the phenomenon until quite recently. A March 2019 study published in Proceedings of the National Academy of Sciences reported that the fruity fireball occurs as a result of the loose electrons and ions that cluster to form plasma when grapes get hot.",
+        "date": "2021-10-05",
+        "title": "Grapes light on fire in the microwave.",
+        "author": 3
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 10,
+    "fields": {
+        "text": "Spaghetto, confetto, and graffito are the singular forms of spaghetti, confetti, and graffiti.",
+        "date": "2021-10-05",
+        "title": "Did you know????",
+        "author": 3
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 11,
+    "fields": {
+        "text": "The 1939 novel Gadsby is the longest book ever published that doesn't contain the letter 'e.'",
+        "date": "2021-10-05",
+        "title": "Absolutely pointless info",
+        "author": 3
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 1,
+    "fields": {
+        "text": "me too!",
+        "date": "2021-10-05",
+        "author": 1,
+        "post": 1
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 2,
+    "fields": {
+        "text": "oh no...",
+        "date": "2021-10-05",
+        "author": 2,
+        "post": 2
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 3,
+    "fields": {
+        "text": "It's not that bad, it's just need a little shaping",
+        "date": "2021-10-05",
+        "author": 3,
+        "post": 3
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 4,
+    "fields": {
+        "text": "I honestly did not understand a word",
+        "date": "2021-10-05",
+        "author": 1,
+        "post": 7
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 5,
+    "fields": {
+        "text": "Finally, true content",
+        "date": "2021-10-05",
+        "author": 1,
+        "post": 2
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 6,
+    "fields": {
+        "text": "Well, i have my plans for the evening",
+        "date": "2021-10-05",
+        "author": 5,
+        "post": 9
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 7,
+    "fields": {
+        "text": "I'm too old to read this",
+        "date": "2021-10-05",
+        "author": 6,
+        "post": 5
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 8,
+    "fields": {
+        "text": "How fun it would be to forget this post!",
+        "date": "2021-10-05",
+        "author": 4,
+        "post": 11
+    }
+},
+{
+    "model": "blog.like",
+    "pk": 1,
+    "fields": {
+        "author": 1,
+        "post": 1
+    }
+},
+{
+    "model": "blog.like",
+    "pk": 2,
+    "fields": {
+        "author": 3,
+        "post": 2
+    }
+},
+{
+    "model": "blog.like",
+    "pk": 5,
+    "fields": {
+        "author": 1,
+        "post": 2
+    }
+},
+{
+    "model": "blog.like",
+    "pk": 6,
+    "fields": {
+        "author": 1,
+        "post": 3
+    }
+},
+{
+    "model": "blog.like",
+    "pk": 7,
+    "fields": {
+        "author": 1,
+        "post": 7
+    }
+},
+{
+    "model": "blog.like",
+    "pk": 8,
+    "fields": {
+        "author": 3,
+        "post": 6
+    }
+},
+{
+    "model": "blog.like",
+    "pk": 9,
+    "fields": {
+        "author": 6,
+        "post": 11
+    }
+},
+{
+    "model": "blog.like",
+    "pk": 10,
+    "fields": {
+        "author": 6,
+        "post": 5
+    }
+},
+{
+    "model": "blog.like",
+    "pk": 12,
+    "fields": {
+        "author": 4,
+        "post": 1
+    }
+},
+{
+    "model": "blog.like",
+    "pk": 14,
+    "fields": {
+        "author": 5,
+        "post": 2
+    }
+},
+{
+    "model": "blog.like",
+    "pk": 16,
+    "fields": {
+        "author": 4,
+        "post": 4
+    }
+}
+]

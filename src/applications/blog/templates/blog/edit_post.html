@@ -1,7 +1,17 @@
-{% extends 'blog/all_posts.html' %}
-{% block new_post %}
-<form method="post">{% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" value="Edit"/>
-</form>
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+  <div class="form-group col-md-6">
+      {% for f in form %}
+    <label for="{{ f.id_for_label }}">{{f.label}}</label>
+          <p>{{ f }}</p>
+      {% endfor %}
+
+
+     <p class="lead mb-0"><button class="btn  btn-outline-secondary" >Edit</button></p>
+      </div>
+    </form>
+    </div>
 {% endblock %}

@@ -1,12 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h3>{{ object.title }}</h3></br>
-{{ object.text }} </br>
-{{ object.date }} </br>
-</body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+        <div class="container">
+    <div class="row g-5">
+
+    <div class="col-md-8">
+    <div class="col-md-8">
+
+      <article class="blog-post">
+        <h2 class="blog-post-title">{{ post.title }}</h2>
+        <p class="blog-post-meta">{{ post.date }}, by <a href="{% url 'blog:user_posts' post.author_id %}">{{ post.author }}</a></p>
+          {% if request.user == post.author %}
+              <hr>
+                <a class="btn btn-sm btn-outline-primary" href="{% url 'blog:edit_post' post.pk %}">Edit</a>
+              <a class="btn btn-sm btn-outline-danger" href="{% url 'blog:delete_post' post.pk %}">Delete</a>
+
+              <hr>
+          {% else %}
+              <hr>
+          {% endif %}
+      <p>{{ post.text|linebreaks }}</p>
+
+          <form action="{% url 'blog:like' post.pk %}" method="post">{% csrf_token %}
+      {% if request.user.is_anonymous %}
+
+      {% else %}
+            <input type="hidden" name="post_id" value="{{ post.id }}">
+
+          {% if not liked %}
+              <button type="submit" class="btn btm-sm btn-outline-success">Like</button>  {{ post.likes_number}} likes
+          {% else %}
+              <button type="submit" class="btn btn-sm btn-outline-success">Take your approval away</button>  {{ post.likes_number}} likes
+          {% endif %}
+
+      {% endif %}
+          </form>
+      </article>
+      </div>
+    </div>
+    <hr>
+
+<style>
+
+    p.content {
+        padding: 1em 1em;
+
+    }
+
+    .container1 {
+
+    }
+
+    .container2 {
+        border: 2px solid #17a950;
+        background-color: #fcfcfc;
+        border-radius: 4px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .container1 span {
+        margin-top: 20px;
+        margin-bottom: 2px;
+        display: inline-block;
+        font-size: 1rem;
+        color: #000;
+        font-weight: 700;
+    }
+
+    h3 {
+        color: #000;
+    }
+
+    p span {
+        line-height: 2px;
+
+    }
+
+    a {
+        border-bottom: none;
+    }
+
+</style>
+
+      <div class="container1">
+                <h3>Comments:</h3>
+                {% if not comments.count %}
+                <p>0 comments</p>
+                {% endif %}
+
+                      {% if not user.is_authenticated %}
+                <p><a href="{% url 'blog:signup' %}">Log in,</a> to leave a comment</p>
+                {% else %}
+                <form action="{% url 'blog:add_comment' post.pk %}" method="post">
+                    {{ form.as_p }}
+                    <input name="csrfmiddlewaretoken" type="hidden" value="{{ csrf_token }}">
+                    <button type="submit" class="btn btn-sm btn-outline-success">Send</button>
+                </form>
+                {% endif %}
+
+          {% for comment in comments %}
+
+              <div class="container2">
+
+                <p><span>{{ comment.author }}</span>: {{ comment.text }}</p>
+                  {{ comment.date }} </br>
+                 {% if request.user == comment.author %}
+
+                     <a class="btn btn-sm btn-outline-dark" href="{% url 'blog:edit_comment' post.pk %}">Edit</a>
+                     <a class="btn btn-sm btn-outline-dark" href="{% url 'blog:delete_comment' post.pk %}">Delete</a>
+
+                  {% else %}
+                  {% endif %}
+              </div>
+                {% endfor %}
+
+
+</div>
+{% endblock %}

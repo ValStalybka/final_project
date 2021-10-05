@@ -1,7 +1,24 @@
-{% extends 'blog/all_posts.html' %}
-{% block new_post %}
-<form method="post">{% csrf_token %}
-    Are you sure you wanna delete this post?</br>
-    <input type="submit" value="Delete"/>
-</form>
-{% endblock %}
+{% extends 'base.html' %}
+{% block button %}
+    <form method="post">
+        {% csrf_token %}
+        <p class="lead mb-0"><button class="btn btn-sm btn-outline-secondary" >Delete</button></p>
+    </form>
+{% endblock button %}
+
+
+{% block content %}
+    <div class="container">
+ <div class="row g-5">
+    <div class="col-md-8">
+
+      <article class="blog-post">
+          <h2 class="blog-post-title">{{ post.title }}</h2>
+        <p class="blog-post-meta">{{ object.date }}, by <a href="{% url 'blog:user_posts' post.author_id %}">{{ object.author }}</a></p>
+<hr>
+      <p>{{ object.text }}</p>
+      </article>
+      </div>
+    </div>
+    </div>
+{% endblock content %}
